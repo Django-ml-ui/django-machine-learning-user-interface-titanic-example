@@ -23,10 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-dotenv_path = os.path.join(BASE_DIR, '.env')
-load_dotenv(dotenv_path)
+# dotenv_path = os.path.join(BASE_DIR, '.env')
+# load_dotenv(dotenv_path)
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+# SECRET_KEY = os.environ.get('SECRET_KEY')
+
+SECRET_KEY='l($-5ppvbxy#tri^w&669+=i6^xxls!z=2o$!cbi79zj4)c8^2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
