@@ -33,7 +33,7 @@ SECRET_KEY='l($-5ppvbxy#tri^w&669+=i6^xxls!z=2o$!cbi79zj4)c8^2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'django-ml-ui-titanic.herokuapp.com']
 
 
 # Application definition
